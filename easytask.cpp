@@ -19,7 +19,7 @@ product = WholeNumber1 * WholeNum2;
 
 bool ZeroDivision = (WholeNum2 != 0);
 
-quotient = ZeroDivision * (WholeNumber1) / (WholeNum2 + 1);
+quotient = ZeroDivision * (WholeNumber1) / (WholeNum2 + (1 - ZeroDivision));
 
 
 std::cout << "Sum: " << sum << "\n";
@@ -27,4 +27,5 @@ std::cout << "Difference: " << difference << "\n";
 std::cout << "Product: " << product << "\n";
 std::cout << "Quotient: " << quotient << "\n";
     return 0;
+
 }
